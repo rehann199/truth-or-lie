@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="t d">
+  <title id="t">Truth or Lie TV system overview</title>
+  <desc id="d">A TV remote sends D-pad, select and back keys to the activities of an Android TV app. Activities share one in-memory game session and read statements from bundled category files. Settings and entitlements are stored in preferences, and the leaderboard in a local SQLite table. Services provide ads, Play Billing, Firebase Analytics through a sanitiser, and background music.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f3d"/>
+      <stop offset="1" stop-color="#2b1666"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f1ecff; }
+      .h { font-size: 26px; font-weight: 700; }
+      .k { font-size: 13px; fill: #c6b6ff; letter-spacing: 1.5px; font-weight: 700; }
+      .b { font-size: 16px; }
+      .s { font-size: 14px; fill: #d6cbff; }
+      .in  { fill: #2c2260; stroke: #a58bff; stroke-width: 2; }
+      .ui  { fill: #3d2a12; stroke: #ffb347; stroke-width: 2; }
+      .gm  { fill: #1f2f5c; stroke: #7fb2ff; stroke-width: 2; }
+      .dt  { fill: #173d3a; stroke: #5fd3b0; stroke-width: 2; }
+      .sv  { fill: #432052; stroke: #e08bff; stroke-width: 2; }
+      .arrow { stroke: #bfa8ff; stroke-width: 2; fill: none; marker-end: url(#a); }
+    </style>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#bfa8ff"/></marker>
+  </defs>
+  <rect width="1200" height="640" rx="16" fill="url(#bg)"/>
+  <text x="40" y="52" class="h">Truth or Lie TV: remote in, party game out</text>
+  <text x="40" y="78" class="s">Native Android TV app in Kotlin with Android Views. One activity per screen, one shared game session.</text>
+
+  <rect x="40" y="120" width="230" height="170" rx="12" class="in"/>
+  <text x="60" y="150" class="k">TV REMOTE</text>
+  <text x="60" y="180" class="b">D-pad Left / Right</text>
+  <text x="60" y="206" class="b">Up, Down</text>
+  <text x="60" y="232" class="b">Select / Back</text>
+  <text x="60" y="262" class="s">No touchscreen required</text>
+
+  <rect x="330" y="120" width="320" height="170" rx="12" class="ui"/>
+  <text x="350" y="150" class="k">ACTIVITIES AND FOCUS</text>
+  <text x="350" y="180" class="b">Focus-driven menus, scale on focus</text>
+  <text x="350" y="206" class="b">Voting: key handler, focus anchor</text>
+  <text x="350" y="232" class="b">Pause overlay, next-player overlay</text>
+  <text x="350" y="262" class="s">Input locked while a vote settles</text>
+
+  <rect x="710" y="120" width="260" height="170" rx="12" class="gm"/>
+  <text x="730" y="150" class="k">GAME SESSION</text>
+  <text x="730" y="180" class="b">Players and scores</text>
+  <text x="730" y="206" class="b">Round and turn counters</text>
+  <text x="730" y="232" class="b">Chosen category</text>
+  <text x="730" y="262" class="s">One in-memory object</text>
+
+  <rect x="1020" y="120" width="140" height="170" rx="12" class="dt"/>
+  <text x="1036" y="150" class="k">CONTENT</text>
+  <text x="1036" y="180" class="b">15 bundled</text>
+  <text x="1036" y="206" class="b">category files</text>
+  <text x="1036" y="262" class="s">Offline</text>
+
+  <path class="arrow" d="M270 205 L326 205"/>
+  <path class="arrow" d="M650 205 L706 205"/>
+  <path class="arrow" d="M970 205 L1016 205"/>
+
+  <rect x="40" y="350" width="360" height="130" rx="12" class="dt"/>
+  <text x="60" y="380" class="k">LOCAL STORAGE</text>
+  <text x="60" y="408" class="b">Preferences: timer, music, entitlements</text>
+  <text x="60" y="434" class="b">SQLite table: all-time leaderboard</text>
+  <text x="60" y="462" class="s">No account, no server for game data</text>
+
+  <rect x="450" y="350" width="710" height="130" rx="12" class="sv"/>
+  <text x="470" y="380" class="k">SERVICES</text>
+  <text x="470" y="408" class="b">Ads: interstitial after a game, rewarded unlock</text>
+  <text x="470" y="434" class="b">Play Billing: in-app products and subscriptions</text>
+  <text x="820" y="408" class="b">Analytics: sanitiser, then Firebase</text>
+  <text x="820" y="434" class="b">Music: looping tracks, lifecycle aware</text>
+  <text x="470" y="462" class="s">Ad and analytics failures do not block play</text>
+
+  <path class="arrow" d="M520 290 L520 346"/>
+  <path class="arrow" d="M380 290 L380 346"/>
+
+  <rect x="40" y="520" width="1120" height="80" rx="12" class="in"/>
+  <text x="60" y="552" class="k">LOOP</text>
+  <text x="60" y="580" class="b">Statement shown, each player votes Truth (Left) or Lie (Right) against a timer, reveal and points, next round, final standings.</text>
+</svg>
