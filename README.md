@@ -12,6 +12,7 @@ Kotlin · Android Views · Play Billing · Unity Ads · Firebase Analytics · D-
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Android TV](https://img.shields.io/badge/Android%20TV-D9822B?logo=androidtv&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+![For sale](https://img.shields.io/badge/Product-For%20sale-7C4DFF)
 
 <img src="assets/artwork/tv-launcher-banner.webp" width="760" alt="Truth or Lie TV launcher banner artwork"/>
 
@@ -21,13 +22,17 @@ Kotlin · Android Views · Play Billing · Unity Ads · Firebase Analytics · D-
 
 ---
 
-## Get the App
+## Availability
 
-<p>
-  <a href="https://play.google.com/store/apps/details?id=com.futurewatch.truthorlietv&hl=en"><img alt="Get it on Google Play" src="https://img.shields.io/badge/Google%20Play-Get%20the%20app-414141?style=for-the-badge&logo=googleplay&logoColor=white" /></a>
-</p>
+**Truth or Lie TV is not publicly released yet.** An Apple TV listing is coming soon; no store link is published at the time of this write-up.
 
-The Play listing is titled "Truth or Lie TV: Party Game". The app declares the Leanback feature as required and does not require a touchscreen.
+<!-- fw-sale:start -->
+## Reach & Availability
+
+| | |
+|---|---|
+| **Product sale** | This is a Future Watch product and it is **available to buy or license** for your own business. [Ask about buying Truth or Lie TV](https://futurewatch.co/contact?type=product&ref=truth-or-lie-tv) or email [rehan@futurewatch.co](mailto:rehan@futurewatch.co). |
+<!-- fw-sale:end -->
 
 ## Product at a Glance
 
